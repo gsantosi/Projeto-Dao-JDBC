@@ -1,0 +1,4 @@
+user=root
+password=Guilherme1998
+Conectorurl = jdbc:mysql://localhost:3306/banco
+useSSL=false
