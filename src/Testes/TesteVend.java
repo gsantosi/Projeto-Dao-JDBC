@@ -3,8 +3,8 @@ package Testes;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
 
-import Aplicacao.Departamento;
-import Aplicacao.Vendedor;
+import Classes.Departamento;
+import Classes.Vendedor;
 
 public class TesteVend {
    public static void main(String [] args) {

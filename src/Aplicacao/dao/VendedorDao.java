@@ -2,7 +2,7 @@ package Aplicacao.dao;
 
 import java.util.List;
 
-import Aplicacao.Vendedor;
+import Classes.Vendedor;
 
 public interface VendedorDao {
 

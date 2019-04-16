@@ -1,6 +1,6 @@
 package Testes;
 
-import Aplicacao.Departamento;
+import Classes.Departamento;
 
 public class TesteDep {
 	public static void main(String[] args) {
@@ -8,6 +8,8 @@ public class TesteDep {
 		Departamento dep = new Departamento(1,"Guilherme");
 		
 		System.out.println(dep);
+		
+		
 		
 		
 		

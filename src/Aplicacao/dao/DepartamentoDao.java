@@ -2,7 +2,7 @@ package Aplicacao.dao;
 
 import java.util.List;
 
-import Aplicacao.Departamento;
+import Classes.Departamento;
 
 public interface DepartamentoDao {
 
