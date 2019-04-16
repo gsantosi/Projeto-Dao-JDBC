@@ -1,5 +1,7 @@
 package Aplicacao.dao;
 
+import java.util.List;
+
 import Aplicacao.Vendedor;
 
 public interface VendedorDao {
@@ -8,5 +10,5 @@ public interface VendedorDao {
 	void update (Vendedor obj);
 	void deleteById (Integer Id);
 	Vendedor findById (Integer Id);
-	List<>
+	List<Vendedor> findAll();
 }
