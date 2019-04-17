@@ -2,32 +2,34 @@ package Classes;
 
 import java.io.Serializable;
 
-public class Departamento implements Serializable{
+public class Department implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	
-	private int  id;
-	private String nome;
+	public Department() {}
 	
-	public Departamento(int id, String nome) {
+	private int  id;
+	private String name;
+	
+	public Department(int id, String name) {
 		
 		this.id = id;
-		this.nome = nome;
+		this.name = name;
 	}
 	
 	public int getId() {
 		return id;
 	}
 	
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
 	
 	public void setId(int id) {
 		this.id = id;
 	}
-    public void setNome (String nome) {
-    	this.nome = nome;
+    public void setName (String name) {
+    	this.name = name;
     }
 
 	@Override
@@ -46,13 +48,13 @@ public class Departamento implements Serializable{
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Departamento other = (Departamento) obj;
+		Department other = (Department) obj;
 		if (id != other.id)
 			return false;
 		return true;
 	}
 	public String toString() {
-       return "Id: "+ id + "\nNome: " + nome;
+       return "Id: "+ id + "\nNome: " + name;
 	
 	
 }

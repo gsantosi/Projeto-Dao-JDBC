@@ -1,16 +1,14 @@
 package Aplicacao.dao;
 
-import ImplementacaoDao.ImplementacaoDepartamentoDao;
-import ImplementacaoDao.ImplementacaoVendedorDao;
+import ImplementacaoDao.ImplementacaoSellerDao;
+import db.DB;
 
 public class FactoryDao {
 
-	public static VendedorDao createVendedorDao() {
-       return new ImplementacaoVendedorDao();
+	public static SellerDao createSellerrDao() {
+       return new ImplementacaoSellerDao(DB.getConnection());
 	}
 	
-	public static DepartamentoDao createDepartamentoDao() {
-		return new ImplementacaoDepartamentoDao();
-	}
+	
 	
 }
