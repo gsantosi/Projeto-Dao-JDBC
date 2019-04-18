@@ -1,9 +1,8 @@
 package Classes;
 
 import java.io.Serializable;
-import java.sql.Date;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Seller implements Serializable{
 
@@ -21,6 +20,7 @@ public class Seller implements Serializable{
 	
 	private Department departamento;
 	
+
 	public Seller(int Id, String Name, String Email, Date BirthDate, double BaseSalary, Department departamento) {
 		
 		this.Id = Id;
